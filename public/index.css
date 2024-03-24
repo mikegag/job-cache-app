@@ -1,4 +1,24 @@
+:root {
+  /* color palette */
+  --main-bg-color: #fffdf8;
+  --accent-color-darkblue: #303e4d;
+  --accent-color-gold: #ffc445;
+  --accent-color-cream: #fcf7eb;
+}
+
 html,
 body {
   margin: 0;
+  font-family: Montserrat, sans-serif;
+  background: var(--main-bg-color);
+  color: var(--accent-color-darkblue);
+}
+
+.app-container {
+  background: var(--main-bg-color);
+  padding: 1em;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
 }
